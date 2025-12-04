@@ -61,7 +61,7 @@ export const getUserByUsername = async (username: string): Promise<User | null> 
 
   // FORCE correct backend host:port here
   // put ec2 instance address
-  const API_BASE = 'http://ec2-3-110-153-176.ap-south-1.compute.amazonaws.com:8080'; 
+  const API_BASE = 'https://splitwise.atul.codes'; 
   const url = `${API_BASE}/api/users/search?username=${encodeURIComponent(username)}`;
 
   const res = await fetch(url, {
