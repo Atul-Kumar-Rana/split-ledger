@@ -60,7 +60,8 @@ export const getUserByUsername = async (username: string): Promise<User | null> 
   if (!username) return null;
 
   // FORCE correct backend host:port here
-  const API_BASE = 'http://localhost:8080'; 
+  // put ec2 instance address
+  const API_BASE = 'http://ec2-3-110-153-176.ap-south-1.compute.amazonaws.com:8080'; 
   const url = `${API_BASE}/api/users/search?username=${encodeURIComponent(username)}`;
 
   const res = await fetch(url, {
