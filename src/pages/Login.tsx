@@ -125,9 +125,9 @@ export default function Login() {
                 className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90 transition-all duration-300 flex items-center justify-center"
                 size="lg"
               >
-                <svg className="mr-2 h-5 w-5" viewBox="0 0 24 24">
+                {/* <svg className="mr-2 h-5 w-5" viewBox="0 0 24 24">
                   <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92..." />
-                </svg>
+                </svg> */}
                 Continue with Google
               </Button>
 
