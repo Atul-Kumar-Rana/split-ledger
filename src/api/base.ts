@@ -1,1 +1,1 @@
-export const BASE_URL ='https://splitwise.atul.codes';
+export const BASE_URL ='';
